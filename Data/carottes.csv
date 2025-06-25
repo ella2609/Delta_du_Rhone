@@ -1,0 +1,122 @@
+﻿Nom;Unit;Bottom_depth;Top_depth;Taille_unit;Facies;Grain_size;Environment;Comments_environment;Depostinional_environment_1;Depositional_environment_2;Interpretation_comments
+A-PI;A1;18,3;18;0,3;Sandy silt;Sandy silt;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;A2;18;17,67;0,33;Medium sand;Medium sand;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;B1;17,67;17;0,67;Silt;Silt;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;B2;16,06;15,79;0,27;Peat;Peat;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;C1;15,79;15,21;0,58;Bedded chalk;-;Freshwater;;Swamp;;
+A-PI;C2;15,21;14,36;0,85;Sandy silt with fine sand laminations;Sandy silt to fine sand;Freshwater;;Swamp;;
+A-PI;D;14,36;11,64;2,72;Parallel bedding of silt, with few sand laminations;Silt;Freshwater;;Distal floodplain;;
+A-PI;E1;11,64;9,39;2,25;Medium sand;Medium sand;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;E2;9,39;9,3;0,09;Silt;Silt;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;E3;9,3;8,67;0,63;Medium sand;Medium sand;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;E4;8,67;8,24;0,43;Laminated silt and fine sand;Silt to fine sand;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;E5;8,24;7,36;0,88;Fine sand;Fine sand;Freshwater;;Fluvial channel;Distributary channel;
+A-PI;F;7,36;5,42;1,94;Silt with a sandy silt lamination and terrestrial gastropod at the top;Silt;Freshwater to terrestrial;;Fluvial channel;Distributary channel;
+A-PI;G1;5,42;4;1,42;Sandy silt;Sandy silt;Terrestrial;;Proximal floodplain;;
+A-PI;G2;4;3,25;0,75;Laminated fine sand and sandy silt;Sandy silt to fine sand;Terrestrial;;Proximal floodplain;;
+A-PI;G3;3,25;2,42;0,83;Sandy silt;Sandy silt;Terrestrial;;Proximal floodplain;;
+A-PI;G4;2,42;1,33;1,09;Laminated fine sand and sandy silt;Sandy silt to fine sand;Terrestrial;;Proximal floodplain;;
+A-PI;G5;1,33;1,09;0,24;Sandy silt;Sandy silt;Terrestrial;;Proximal floodplain;;
+A-PI;G6;1,09;0,88;0,21;Fine sand;Fine sand;Terrestrial;;Proximal floodplain;;
+A-PI;H;0,88;0;0,88;Through cross stratification with medium sand and terrestrial gastropods;Medium sand;Terrestrial;;Crevasse splay;;
+R1;A;40;38;2;Gravels;Gravel;Freshwater;;Fluvial channel;;
+R1;B;38;37;1;Silty clay with few fine sand laminations;Silty clay to sandy silt;Freshwater;Freshwater gastropods, plant and wood fragments;Swamp;;
+R1;C;37;36;1;Laminated silty clay and silty sand;Silty clay to fine sand;Brackish;Marine bivalve;Central estuary;;
+R1;D;36;34,5;1,5;Sand;Sand;Marine;Plant and wood fragments;Bay-head delta;;
+R1;E;34,5;33,5;1;Silty clay;Silty clay;Brackish;Plant and wood fragments;Inner estuary;;
+R1;F;33,5;31,8;1,7;Silty clay with few fine sand laminations;Silty clay;Freshwater to brackish;Freshwater gastropods, plant and wood fragments;Swamp;;
+R1;G1;31,8;30;1,2;Sand;Sand;Brackish and shallow marine;;Subdelta;;
+R1;G2;30;29;1;Silty clay;Silty clay;Brackish and shallow marine;;Subdelta;;
+R1;G3;29;28,5;0,5;Sand;Sand;Brackish and shallow marine;;Subdelta;;
+R1;H1;28,5;27,7;0,8;Silty clay;Silty clay;Brackish and shallow marine;;Flood-tidal delta;;
+R1;H2;27,7;27,3;0,4;Sand;Sand;Brackish and shallow marine;Plant and wood fragments;Flood-tidal delta;;
+R1;I;27,3;26,5;0,8;Silty clay;Silty clay;Freshwater to brackish;Freshwater gastropods, plant and wood fragments;Swamp;;
+R1;J1;26,5;26;0,5;Silty clay;Silty clay;Marine;;Outer estuary  Bay;;
+R1;J2;26;25,5;0,5;Sand;Sand;Marine;;Outer estuary  Bay;;
+R1;J3;25,5;25;0,5;Silty clay;Silty clay;Marine;;Outer estuary  Bay;;
+R1;K;25;23,86;1,14;Silty medium sand;Silty medium sand;Marine;Marine bivalve and gastropods;Transgressive shoreface;;
+R1;L1;23,86;13,5;10,36;Silt;Silt;Marine;"Organic-rich deposit at  14,13 m; marine bivalve, gastropods and scaphopods";Proximal prodelta;;
+R1;L2;13,5;9;4,5;Silty sand;Silty sand;Marine;Organic-rich deposit at 12 m;Proximal prodelta;;
+R1;M1;9;8;1;Silty clay;Silty clay;Marine;;Bay;;
+R1;M2;8;7,25;0,75;Silty sand;Silty sand;Marine;;Bay;;
+R1;M3;7,25;6,5;0,75;Silty clay;Silty clay;Marine;;Bay;;
+R1;N1;6,5;5;1,5;Fine sand;Fine sand;Marine;;Delta front;;
+R1;N2;5;2,3;2,7;Medium sand;Medium sand;Marine;;Delta front;;
+R1;O;2,3;1,5;0,8;Silty clay;Silty clay;Marine;;Delta plain;;
+R2;A;50;45,57;4,43;Gravels;Gravel;Freshwater;;Fluvial channel;;
+R2;B;45,57;45;0,57;Silty clay;Silty clay;?;;Swamp;;
+R2;C1;45;43,55;1,45;Laminated silty clay and silty sand;Silty clay to sandy silt;Marine;Marine bivalve and gastropods;Outer estuary  Bay;;
+R2;C2;43,55;41,3;2,25;Silty clay;Silty clay;Marine;;Outer estuary  Bay;;
+R2;D;41,3;38,88;2,42;Medium sand;Medium sand;?;Plant and wood fragments;Bay-head delta;;
+R2;E1;38,88;38,26;0,62;Silty clay;Silty clay;Freshwater;Freshwater gastropods;Swamp;;
+R2;E2;38,26;37,8;0,46;Silty sand;Silty sand;Brackish and shallow marine;;Swamp;Crevasse splay;Crevasse splay in a swampy environment?
+R2;F;37,8;36,86;0,94;Laminated silty clay and silty sand;Laminated silty clay and silty sand;Brackish;Freshwater gastropods, plant and wood fragments;Central estuary;;
+R2;G;36,86;36,08;0,78;Silty clay;Silty clay;Freshwater;;Swamp;;
+R2;H;36,08;35,07;1,01;Silty clay;Silty clay;Brackish;Plant and wood fragments;Inner estuary;;
+R2;I;35,07;34,3;0,77;Fine sand;Fine sand;Brackish and shallow marine;;Transgressive shoreface;Washover;Washover in the transgressive shoreface?
+R2;J;34,3;34,06;0,24;Medium sand;Medium sand;Brackish and shallow marine;Marine bivalves and gastropods;Transgressive shoreface;;
+R2;K1;34,06;26;8,06;Silty clay with marine gastropods;Silty clay;Marine;Marine gastropods;Distal prodelta;Mud belt;
+R2;K2;26;20;6;Silty clay with marine gastropods and layers of fine sand;Silty clay to fine sand;Marine;Marine gastropods;Distal prodelta;;
+R2;K3;20;18;2;Fine sand;Fine sand;Marine;;Distal prodelta;;
+R2;K4;18;12,4;5,6;Silty clay with marine gastropods and layers of fine sand;Silty clay to fine sand;Marine;Marine gastropods;Distal prodelta;;
+R2;L;12,4;3,11;9,29;Fine to medium sand;Sand;Brackish and shallow marine;"Organic-rich deposit at 10,50; 9,50; 8,55; 7,47; 6,84; 5,44 m";Delta front;;
+RHS-KS27;A;7,64;5,95;1,69;Beige silty clay;Silty clay;Marine;Low hydrotroilite content. Bioturbation is abundant and sediment is structureless. Some diffuse veneers of yellowish lighter levels are observed, as well as spots of darker sediments (rich in hydrotroilite, clearly obliterated by bioturbation). Scattered bryozoan debris, shells or shell fragments are found. Biogenic material is mainly made of Turritella sp., and to a minor extent, of bivalves.;Prodelta;;Facies 3a1  - Fanget et al., 2014
+RHS-KS27;B;5,95;5,08;0,87;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS27;C;5,08;0;5,08;Banding dark, grey, brownish or beige silty clay;Silty clay;Marine;Bioturbation sometimes mixing the colours from two adjacent bands. Silt laminae and few silt or very fine sand beds are observed within this facies.;Prodelta;;Facies 3b - Fanget et al., 2014
+RHS-KS39;A;3,38;1,91;1,47;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Silty clay to medium sand;Marine;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Prodelta;Tempestite;Facies 1  - Fanget et al., 2014
+RHS-KS39;C;0,53;0;0,53;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Silty clay to medium sand;Marine;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Prodelta;Tempestite;Facies 1  - Fanget et al., 2014
+RHS-KS39;B;1,91;0,53;1,38;Banding dark, grey, brownish or beige silty clay;Silty clay;Marine;Bioturbation sometimes mixing the colours from two adjacent bands. Silt laminae and few silt or very fine sand beds are observed within this facies.;Prodelta;;Facies 3b - Fanget et al., 2014
+RHS-KS40;A;7,88;6,05;1,83;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Silty clay to medium sand;Marine;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Prodelta;Tempestite;Facies 1  - Fanget et al., 2014
+RHS-KS40;B;6,05;5,72;0,33;Abundant shells and shell debris in a greyish silty clay matrix;Silty clay;Marine;Turritella sp. and a number of bivalves (e.g., Acanthocardia echinata, Arca tetragona, Nucula sp.) are found.;Prodelta;Condensed interval;Facies 2 - Fanget et al., 2014
+RHS-KS40;C;5,72;4,84;0,88;Beige silty clay;Silty clay;Marine;Low hydrotroilite content. Bioturbation is abundant and sediment is structureless. Some diffuse veneers of yellowish lighter levels are observed, as well as spots of darker sediments (rich in hydrotroilite, clearly obliterated by bioturbation). Scattered bryozoan debris, shells or shell fragments are found. Biogenic material is mainly made of Turritella sp., and to a minor extent, of bivalves.;Prodelta;;Facies 3a1  - Fanget et al., 2014
+RHS-KS40;D;4,84;0;4,84;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS51;A;5,35;4,5;0,85;Abundant shells and shell debris in a greyish silty clay matrix;Silty clay;Marine;Turritella sp. and a number of bivalves (e.g., Acanthocardia echinata, Arca tetragona, Nucula sp.) are found.;Prodelta;Condensed interval;Facies 2 - Fanget et al., 2014
+RHS-KS51;B;4,5;2,46;2,04;Beige silty clay;Silty clay;Marine;Low hydrotroilite content. Bioturbation is abundant and sediment is structureless. Some diffuse veneers of yellowish lighter levels are observed, as well as spots of darker sediments (rich in hydrotroilite, clearly obliterated by bioturbation). Scattered bryozoan debris, shells or shell fragments are found. Biogenic material is mainly made of Turritella sp., and to a minor extent, of bivalves.;Prodelta;;Facies 3a1  - Fanget et al., 2014
+RHS-KS51;C;2,46;0;2,46;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS52;A;7,88;6,93;0,95;Beige silty clay;Silty clay;Marine;Low hydrotroilite content. Bioturbation is abundant and sediment is structureless. Some diffuse veneers of yellowish lighter levels are observed, as well as spots of darker sediments (rich in hydrotroilite, clearly obliterated by bioturbation). Scattered bryozoan debris, shells or shell fragments are found. Biogenic material is mainly made of Turritella sp., and to a minor extent, of bivalves.;Prodelta;;Facies 3a1  - Fanget et al., 2014
+RHS-KS52;B;6,93;5,08;1,85;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS52;D;1,01;0;1,01;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS52;C;5,08;1,01;4,07;Banding dark, grey, brownish or beige silty clay;Silty clay;Marine;Bioturbation sometimes mixing the colours from two adjacent bands. Silt laminae and few silt or very fine sand beds are observed within this facies.;Prodelta;;Facies 3b - Fanget et al., 2014
+RHS-KS53;A;7,69;6,85;0,84;Beige silty clay;Silty clay;Marine;Low hydrotroilite content. Bioturbation is abundant and sediment is structureless. Some diffuse veneers of yellowish lighter levels are observed, as well as spots of darker sediments (rich in hydrotroilite, clearly obliterated by bioturbation). Scattered bryozoan debris, shells or shell fragments are found. Biogenic material is mainly made of Turritella sp., and to a minor extent, of bivalves.;Prodelta;;Facies 3a1  - Fanget et al., 2014
+RHS-KS53;B;6,85;4,51;2,34;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS53;D;1,54;0;1,54;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS53;C;4,51;1,54;2,97;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3b  - Fanget et al., 2014
+RHS-KS54;A;5,33;5,26;0,07;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Silty clay to medium sand;Marine;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Prodelta;Tempestite;Facies 1  - Fanget et al., 2014
+RHS-KS54;B;5,26;4,78;0,48;Abundant shells and shell debris in a greyish silty clay matrix;Silty clay;Marine;Turritella sp. and a number of bivalves (e.g., Acanthocardia echinata, Arca tetragona, Nucula sp.) are found.;Prodelta;Condensed interval;Facies 2 - Fanget et al., 2014
+RHS-KS54;C;4,78;3,4;1,38;Beige silty clay;Silty clay;Marine;Low hydrotroilite content. Bioturbation is abundant and sediment is structureless. Some diffuse veneers of yellowish lighter levels are observed, as well as spots of darker sediments (rich in hydrotroilite, clearly obliterated by bioturbation). Scattered bryozoan debris, shells or shell fragments are found. Biogenic material is mainly made of Turritella sp., and to a minor extent, of bivalves.;Prodelta;;Facies 3a1  - Fanget et al., 2014
+RHS-KS54;D;3,4;0;3,4;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS55;A;7,42;4,62;2,8;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Silty clay to medium sand;Marine;Alternating silt (or rarely very fine to fine sand) and greyish silty clay laminae;Prodelta;Tempestite;Facies 1  - Fanget et al., 2014
+RHS-KS55;B;4,62;4,43;0,19;Abundant shells and shell debris in a greyish silty clay matrix;Silty clay;Marine;Turritella sp. and a number of bivalves (e.g., Acanthocardia echinata, Arca tetragona, Nucula sp.) are found.;Prodelta;Condensed interval;Facies 2 - Fanget et al., 2014
+RHS-KS55;C;4,43;3,26;1,17;Beige silty clay;Silty clay;Marine;Low hydrotroilite content. Bioturbation is abundant and sediment is structureless. Some diffuse veneers of yellowish lighter levels are observed, as well as spots of darker sediments (rich in hydrotroilite, clearly obliterated by bioturbation). Scattered bryozoan debris, shells or shell fragments are found. Biogenic material is mainly made of Turritella sp., and to a minor extent, of bivalves.;Prodelta;;Facies 3a1  - Fanget et al., 2014
+RHS-KS55;D;3,26;0;3,26;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS56;A;7,6;4,84;2,76;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS56;C;1,52;0;1,52;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS56;B;4,84;1,52;3,32;Banding dark, grey, brownish or beige silty clay;Silty clay;Marine;Bioturbation sometimes mixing the colours from two adjacent bands. Silt laminae and few silt or very fine sand beds are observed within this facies.;Prodelta;;Facies 3b - Fanget et al., 2014
+RHS-KS57;B;7,6;5,03;2,57;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS57;D;4,26;2,79;1,47;Greyish and beige silty clay;Silty clay;Marine;High hydrotroilite content and bioturbation.;Prodelta;;Facies 3a2  - Fanget et al., 2014
+RHS-KS57;A;7,78;7,6;0,18;Banding dark, grey, brownish or beige silty clay;Silty clay;Marine;Bioturbation sometimes mixing the colours from two adjacent bands. Silt laminae and few silt or very fine sand beds are observed within this facies.;Prodelta;;Facies 3b - Fanget et al., 2014
+RHS-KS57;C;5,03;4,26;0,77;Banding dark, grey, brownish or beige silty clay;Silty clay;Marine;Bioturbation sometimes mixing the colours from two adjacent bands. Silt laminae and few silt or very fine sand beds are observed within this facies.;Prodelta;;Facies 3b - Fanget et al., 2014
+RHS-KS57;E;2,79;0;2,79;Banding dark, grey, brownish or beige silty clay;Silty clay;Marine;Bioturbation sometimes mixing the colours from two adjacent bands. Silt laminae and few silt or very fine sand beds are observed within this facies.;Prodelta;;Facies 3b - Fanget et al., 2014
+SF;A;48;46,8;1,2;Gravels;Gravel;Freshwater;;Fluvial channel;;
+SF;B1;46,8;45,35;1,45;Silty clay;Silty clay;?;;Swamp  Inner estuary;;
+SF;B2;45,35;43,7;1,65;Laminated silty clay and silty sand;Silty clay to sandy silt;Marine;;Outer estuary  Bay;;
+SF;C;43,7;41,9;1,8;Medium sand;Medium sand;Marine;;Bay-head delta;;
+SF;D1;41,9;39,57;2,33;Silty clay;Silty clay;Freshwater;;Swamp  Inner estuary;;
+SF;D2;39,57;38,36;1,21;Laminated silty clay and silty sand;Silty clay to sandy silt;Marine;;Outer estuary  Bay;;
+SF;E;38,36;37,67;0,69;Fine sand;Medium sand;Marine;;Bay-head delta;;
+SF;F1;37,67;35,7;1,97;Silt;Silt;Brackish;;Swamp  Inner estuary;;
+SF;F2;35,7;34,4;1,3;Silty clay;Silty clay;Marine;;Outer estuary  Bay;;
+SF;F3;34,4;33,7;0,7;Silt;Silt;Brackish;;Swamp  Inner estuary;;
+SF;G;33,7;32,5;1,2;Fine sand;Medium sand;Marine;;Bay-head delta;;
+SF;H;32,5;32;0,5;Silt;Silt;Brackish;;Swamp  Inner estuary;;
+SF;I;32;31,2;0,8;Medium sand;Medium sand;Brackish and shallow marine;;Transgressive shoreface;;
+SF;J1;31,2;28;3,2;Silty clay;Silty clay;Marine;;Distal prodelta;Mud belt;
+SF;J2;28;22,84;5,16;Silty clay and layers of fine sand;Silty clay to fine sand;Marine;;Distal prodelta;;
+SF;J3;22,84;21,72;1,12;Fine sand;Fine sand;Marine;;Distal prodelta;;
+SF;J4;21,72;13;8,72;Silty clay with layers of fine sand;Silty clay to fine sand;Marine;;Distal prodelta;;
+SF;J5;13;10,94;2,06;Fine sand;Fine sand;Marine;;Distal prodelta;;
+SF;J7;10,94;9;1,94;Silty clay;Silty clay;Marine;;Distal prodelta;;
+SF;K1;9;6,12;2,88;Fine to medium sand;Sand;Brackish and shallow marine;;Delta front;;
+SF;K2;6,12;5,86;0,26;Silty clay;Silty clay;Marine;;Delta front;;
+SF;K3;5,86;3,1;2,76;Fine to medium sand;Sand;Brackish and shallow marine;;Delta front;;
+SF;L;3,1;2,07;1,03;Silty sand;Silty sand;Brackish or freshwater;;Delta plain;;

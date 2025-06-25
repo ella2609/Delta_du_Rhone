@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <link rel="stylesheet" href ="styles.css">
+        <script src="Data/carottes.csv"></script>
+        <script src="Data/pts_carottes.js"></script>
+        <script src="Data/traces_Arnaud_Fassetta.js"></script>
+        <script src="Data/traces_Martinez.js"></script>
+        <script src="Data/traces_Vella.js"></script>
+        <script src="afficher_donnees_svg.js"></script>
+        <script src="Data/Depots_anthro.js"></script>
+        <script src="Data/Depots_inond.js"></script>
+        <script src="Data/Depots_lacs.js"></script>
+        <script src="Data/Depots_sables.js"></script>
+        <script src="delta_rhone.js"></script>
+        <svg width="1200" height="600"></svg>
+        <title>Delta du Rhône</title>
+    </head>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+    <body>
+        <!-- Box avec le titre et les informations sur le projet -->
+        <header>
+            <h1>Chronologies sédimentaires du delta du Rhône</h1>
+            <div id="carotte-options">
+                <button id="toggle-carotte-options">Affichage des carottes par attributs spécifiques</button>
+                <div id="carotte-options-box">
+                    <label><input type="radio" name="carotte-display" value="default" checked>Défaut</label>
+                    <label><input type="radio" name="carotte-display" value="envi">Environnement dominant</label>
+                    <label><input type="radio" name="carotte-display" value="nb_Dates">Nombres de dates</label>
+                    <label><input type="radio" name="carotte-display" value="profondeur">Profondeur</label>
+                </div>
+            </div>
+        </header>
+
+        <!-- Data-container avec les sub-container dans lequel les données sur les carottes sont affichées -->
+        <div id="data-container">
+            <div id="sub-container-1"></div>
+            <div id="sub-container-2"></div>
+            <div id="sub-container-3"></div>
+        </div>  
+
+        <!-- Cartographie avec les informations qui y sont liées -->
+        <div id="mapid">
+            <section id="map-section">
+                <div id="mapid"></div>
+                <div id="legend"></div>
+            </section>
+        </div>
+        <script src="afficher_donnees_svg.js"></script>
+
+
+        <script>
+        // Affichage du texte dans sub-container-1 et sub-container-2 //
+        function showProjectInfo() {
+            document.getElementById('sub-container-1').innerHTML = `
+            <div class="project-info">
+                <h2 class="project-info-title">À propos du projet</h2>
+            </div>
+             <img src="Images/delta_du_rhone_img.jpg" class="project-info-image">
+`;
+            document.getElementById('sub-container-2').innerHTML = `
+                <div class="project-info">
+                        <div class="picto-group">
+                            <img src="Images/pictogramme_geoviz.png" class="picto">
+                            <p class="picto-text"><b>Géovisualisation interactive</b></p>
+                        </div>
+                            <p class="project-info-text">
+                                Cette plateforme permet de découvrir les données en lien avec les dynamiques littorales sur le temps long. I'sagit d'une 
+                                géovisualisation qui permet de consulter les données chronostratigaphiques issues de carottes sédimentaires.
+                                Il s'agit d'une visualisation interactive où il est possible de cliquer, survoler ou zoomer sur les données collectées pour 
+                                chaque carotte sédimentaire disponible en milieu deltaïque.
+                                <br>
+
+                        <div class="picto-group">
+                            <img src="Images/pictogramme_donnees.png" class="picto">
+                            <p class="picto-text"><b>Les données</b></p>
+                        </div>
+                        <p class="project-info-text">
+                            Découvrir les données sur les dynamiques littorales sur le temps long, se fait par les données de plusieurs carottes sédimentaires 
+                            dont les données proviennent d'une base de données en constuction dans le cadre du projet pilote DELTIME sous la direction de F. Salomon.
+                            Comprendre les anciennes couches sédimentaires permet de mieux appréhender les dynamiques littorales du delta du Rhône.
+                            <br>
+
+                        <div class="picto-group">
+                            <img src="Images/pictogramme_site.png" class="picto">
+                            <p class="picto-text"><b>La zone d'étude et les sites de données</b></p>
+                        </div>
+                        <p class="project-info-text">
+                            La plateforme permet la visualisation des données sur les chronologies sédimentaires du delta du Rhône.
+                            En ce qui concerne les carottes sédimentaires, il s'agit de 15 carottes dans la région d'étude. 
+                            De plus, il y a la possiblilté de découvrir 3 hypothèses d'anciens tracés du delta du Rhône réalisées par 3 auteurs différents. <br>
+                        <div class="picto-group">
+                            <img src="Images/pictogramme_cadre.png" class="picto">
+                            <p class="picto-text"><b>Le travail réalisé</b></p>
+                        </div>
+                        <p class="project-info-text">
+                            Ce travail est réalisé dans le cadre du Travail d'étude et de recherche du M1 OTG de l'Université de Strasbourg.
+                            Il a été encadré par O. Finance et F. Salomon <br>
+                </div>
+            `;
+            // Informations dans le sub-container-3 //
+            document.getElementById('sub-container-3').innerHTML =  `
+    <div class="project-info project-info-flex">
+        <h2 class="project-auteur">Thill Ella, 2025</h2>
+        <div class="logo-projet-group">
+            <img src="Images/Logo_DELTIME.png" class="logo-projet">
+            <img src="Images/Logo_LIVE.png" class="logo-projet">
+        </div>
+        <div class="project-info-col">
+            <img src="Images/pictogramme_methodo.png" class="picto picto-methodo" alt="Méthodologie">
+            <p class="project-info-link-text">
+                <a href="Images/schema_organisation.png" target="_blank" class="project-info-link">
+                    Voir le schéma d'organisation
+                </a>
+            </p>
+        </div>
+    </div>
+`;
+        }
+        // Affichage au moment du chargement //
+        window.addEventListener('DOMContentLoaded', showProjectInfo);
+        </script>
+        <script type="module" src="delta_rhone.js"></script>
+        <div id="carotte-legend"></div>
+    </body>
+</html>

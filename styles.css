@@ -1,0 +1,368 @@
+/* Définitions des styles de base appliqués sur l'ensemble de la GéoViz */
+:root {
+    --primary-color: #2b3d4f;
+    --secondary-color: #000000;
+    --third-color: #ffffff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --header-bg: rgba(205, 224, 231, 0.534);
+    --container-bg: rgba(207, 235, 243, 0.963);
+    --font-family: 'Roboto', sans-serif;
+}
+
+/* Styles pour la carte */
+#mapid{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+ /* Styles pour le body */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Style du cadre de l'entête de la page web */
+header{
+    position: absolute;
+    top: 2%;
+    left: 3.5%;
+    background: var(--header-bg);
+    box-shadow: var(--shadow);
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    height: 17%;
+    width: 42%;
+    z-index: 10;
+}
+
+/* Style du titre de l'entête de la page web */
+header h1 {
+    font-weight: 700;
+    text-align: top;
+    margin-top: 4%;
+    font-size: 1.8rem;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    position: absolute;
+}
+
+/* Styles pour la box de choix d'affichage des points dans le header */
+#carotte-options {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 4em;
+    z-index: 1000;
+    font-family: var(--font-family);
+}
+
+#toggle-carotte-options {
+    background: var(--header-bg);
+    color: var(--primary-color);
+    border: 1px solid var(--header-bg);
+    padding: 2% 4%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background 0.2s, color 0.2s;
+}
+
+#toggle-carotte-options:hover {
+    background: var(--primary-color);
+    color: var(--third-color);
+}
+
+#carotte-options-box {
+    display: none;
+    background: var(--third-color);
+    border: 0.2% solid #ccc;
+    padding: 1% 2%;
+    margin-top: 1%;
+    box-shadow: var(--shadow);
+    min-width: 30%;
+}
+
+#carotte-options-box label {
+    display: block;
+    margin-bottom: 0.5%;
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+#carotte-options-box input[type="radio"] {
+    margin-right: 1.5%;
+    accent-color: var(--primary-color);
+}
+
+#carotte-legend {
+    position: absolute;
+    left: 40%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    background: var(--third-color);
+    box-shadow: var(--shadow);
+    padding: 1% 2%;
+    min-width: 20%;
+    text-align: center;
+    z-index: 1100;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    display: none;
+}
+
+/* Style du Data-container et ses sub-container */
+#data-container {
+    position: absolute;
+    width: 40%;
+    height: 95%;
+    background: var(--container-bg);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 2%;
+    right: 2%;
+    z-index: 10;
+}
+
+#sub-container-1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    gap: 1%;
+}
+
+#sub-container-2 {
+    width: 100%;
+    height: 80%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    overflow-y: auto;
+    position: relative;
+    max-height: 600px;
+}
+
+#sub-container-3 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-anchor: middle;
+}
+
+/* Style des textes dans le data-container (en lien avec les carottes) */
+.chart-title {
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    fill: var(--primary-color);
+    text-anchor: middle;
+}
+
+.info-label {
+    font-size: 12px;
+    font-family: var(--font-family);
+    fill: var(--secondary-color);
+    text-anchor: middle;
+}
+
+.unit-label {
+    font-size: 12px;
+    font-family: var(--font-family);
+    fill: var(--secondary-color);
+    text-anchor: middle;
+}
+
+.details-label {
+    font-size: 12px;
+    font-family: var(--font-family);
+    fill: var(--secondary-color);
+    text-anchor: middle;
+    right: 80px;
+}
+
+.carotte-info {
+    font-size: 12px;
+    font-family: var(--font-family);
+    fill: var(--secondary-color);
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.lien-source {
+    font-size: 12px;
+    font-family: var(--font-family);
+    fill: rgb(0, 13, 255);
+    text-decoration: underline;
+}
+
+.info-title {
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    fill: var(--primary-color);
+    text-anchor: middle;
+    position: sticky;
+    top: 0;
+    background: var(--container-bg);
+    z-index: 2;
+    padding: 1em;
+}
+
+/* Légende dans le sub-container-3 et style pour les points de datation */
+.datation-point {
+  fill: #fffb00;
+  stroke: #222;
+  stroke-width: 0.3%;
+  r: 0.6%;
+  opacity: 1;
+}
+
+.legend-title-dc3 {
+    font-size: 10px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    fill: var(--primary-color);
+    text-anchor: center;
+
+}
+
+.legend-info-dc3 {
+    font-size: 9px;
+    font-family: var(--font-family);
+    fill: var(--secondary-color);
+    text-anchor: center;
+    dominant-baseline: center;
+}
+
+
+/* Styles pour la partie à propos du projet */
+.project-info {
+    padding: 2em;
+    font-family: var(--font-family);
+}
+
+.project-info-image {
+    width: 30%; 
+    height: auto;
+    margin-top: 15%; 
+    align-items: right;
+}
+
+.project-info-title {
+    text-align: left;
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    margin-bottom: 1%; 
+}
+
+.project-info-text {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    line-height: 1;
+    text-align: left;
+    text-align: justify;
+    margin-left: 0.2%; 
+}
+
+.picto-group {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.picto {
+    width: 8%; 
+    height: auto;
+    margin-right: 1%; 
+}
+
+.picto-text {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    line-height: 1.1;
+    text-align: left;
+    margin-left: 0;
+}
+
+.project-auteur {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+    white-space: nowrap;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+/* Ajout de styles pour le sub-container-3 */
+.project-info-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-info-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picto-methodo {
+    width: 40%; 
+    margin-left: 80%; 
+}
+
+.project-info-link-text {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 0.85em;
+    margin-left: 80%;
+}
+
+.project-info-link {
+    color: #0074D9;
+    text-decoration: underline;
+    font-size: 0.95em;
+}
+
+
+
+/* Style pour les logos */
+.logo-projet-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 6.1em;
+}
+
+.logo-projet {
+    height: 60px;
+    width: auto;
+    margin: 0;
+    padding: 0.2% 0.4%;
+}
+
+/* Changement de curseur */
+.leaflet-interactive {
+    cursor: help !important;
+}
